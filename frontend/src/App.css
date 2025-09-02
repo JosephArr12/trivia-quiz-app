@@ -1,0 +1,106 @@
+/* Reset & base styles */
+
+/* Center the quiz */
+.app-container {
+
+}
+
+/* Quiz Card */
+.quiz-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Title */
+.title {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Question */
+.question {
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+/* Answer Buttons */
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.answer-btn {
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #2196f3;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.answer-btn:hover {
+  background: #1976d2;
+}
+
+/* Correct & Wrong Colors */
+.correct {
+  background: #4caf50 !important;
+}
+.wrong {
+  background: #f44336 !important;
+}
+
+/* Feedback Text */
+.feedback {
+  margin-top: 15px;
+}
+.correct-text {
+  color: #4caf50;
+  font-weight: bold;
+}
+.wrong-text {
+  color: #f44336;
+  font-weight: bold;
+}
+
+/* Next Button */
+.next-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #ff9800;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.next-btn:hover {
+  background: #e68900;
+}
+
+/* Loading Text */
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 20%;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
