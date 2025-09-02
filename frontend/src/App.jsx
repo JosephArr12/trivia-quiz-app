@@ -42,7 +42,7 @@ function App() {
   if (!question) return <p className="loading">Loading...</p>;
 
   return (
-    <div className="app-container">
+    <div>
       <div className="quiz-card">
         <h1 className="title">Trivia Quiz</h1>
         <h2
